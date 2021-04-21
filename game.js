@@ -37,11 +37,19 @@ let questions = [
         choice4: "alert('Hello World');",
         answer: 4,
     },
+    {
+        question: " What does HTML stand for",
+        choice1: "Hyperlinks and Text Markup Language",
+        choice2: "Hyper text Markup Language",
+        choice3: "Home Tool Markup Language",
+        choice4: "Home Text Markup Language",
+        answer: 2,
+    },
 ];
 
 
 const CORRECT_BONUS=10;
-const MAX_QUESTIONS=3;
+const MAX_QUESTIONS=4;
 
 startGame =()=>{
     questionCounter=0;
@@ -114,4 +122,4 @@ incremenetScore=num=>{
 }
 
 
-startGame()
+startGame();
